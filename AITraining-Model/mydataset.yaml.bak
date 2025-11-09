@@ -1,0 +1,44 @@
+path: C:\Users\ioannisb\Documents\Development\JAIID\JAIID\data #Windows
+#path: /home/ioabuh/Development/JAIID/data #Linux
+train: train #train images relative path (path)
+val: val #validation images. For simplicity we will use the same images as in training
+
+
+nc: 3
+names: ['Impact', 'Satellite','Shadow']
+
+train_size: 0.9
+val_size: 0.1
+
+batch_size: 64
+subdivisions: 16
+
+width: 640
+height: 640
+
+# Image augmentation parameters
+exposure: 1.5
+saturation: 1.5
+hue: 0.1
+jitter: 0.3
+
+flip_horizontal: 1
+flip_vertical: 0
+degrees: 10  # You might consider a small rotation for planetary images
+translate: 0.1
+scale: 0.5
+
+mosaic: 1
+mixup: 0
+
+letter_box: 0
+
+# Additional augmentation parameters
+occlusion:
+  - 0.1
+  - 0.3
+
+blur: 1
+mosaic_bound: 1
+contrast: 1
+saturated: 1

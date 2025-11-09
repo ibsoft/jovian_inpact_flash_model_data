@@ -1,0 +1,2201 @@
+{
+    "name": "AI Model v01",
+    "securityToken": "AI Model v01 Token",
+    "sourceConnection": {
+        "name": "OUT",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNWE5ODdiNjE3MmZlMWZjNzM5MWIyZWRmMjk1ODIzYzI4ZGNjZjI3YTdiNzM1MjkyZGEyY2EzYzgwNjk3NDVhOWFkMGMxZTI0M2FmYTA2YTA5NTMwMTE4ODEwMzNhZGI3YTlmN2Y5NmY1MzgwYjNkZDU4MmJmZjYxZmZmYjdmNjUxNWU3NmE4YzRhNTRjM2MxOTQxMDFkNjNiMzBmYmNhODU1OTc5MDExZTMxN2NiZmI4OTgxMWFhZjlhOWFkNGQzIiwiaXYiOiI2MjA3MGMzOTNjYWZjMDA3NGRjYWExMmRjZmRkMWQxM2NkMjFkMmI0NGNhZmQ3NzQifQ=="
+        },
+        "id": "CrLp6lIib"
+    },
+    "targetConnection": {
+        "name": "OUT",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMGE5NDllOWE2YTIzNTMxMjllNDA2MDA2ZmQxZjRmNjc1NThmOTY2ODQxYTQwZDk4YzRkMWQ5ZTkzMGUwNzgyN2RjMTllMDQzM2VhOTgzMDQyYjBkZGJjMGJlYzg2ZWU0NGIzNjU4OGY4ZDdmM2JiZjQ5OTdiMmU0MTk2ZWE2NmM2NjMyM2U4MDNhYmJhM2U0ZmMxYjNjMTVjZmQ0MmQyNTUwMjdhZmIzODMwNzk0ZThjMzRmYWY4OWUyMDE5NmUzIiwiaXYiOiI0Njg0YmZkY2IzMTY5ZWM0OTQzZDk3NTk2Mjg1NzRmM2IyNjYwNGNhYWQ2NzAxNTUifQ=="
+        },
+        "id": "CrLp6lIib"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "Impact",
+            "color": "#5db300"
+        },
+        {
+            "name": "Satellite",
+            "color": "#e81123"
+        },
+        {
+            "name": "Shadow",
+            "color": "#6917aa"
+        }
+    ],
+    "id": "qXEK_cmd2",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYWM2MmY0YWI4NWQyYzQ1YjYxODhhZmIzY2RhZTMwMTdjNzJjOTljYzhlN2JkNjg3MDg3MDAwNjBhMzY5ZGZkMWNlY2EyNjJmY2RhMzQ3YTA2OGU3ZjY4MWU4OTg1YzdlIiwiaXYiOiJiOTFmOGJlNTU3ZjQzMjY5OWI4ZWVlZDE5YTU0MWQ5NjlhOTQzMDczNGIzNzkxODYifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "dc904b61aac9e84e1a872f5ac3e7ba69",
+    "assets": {
+        "c06e643429cfed89673537bd96bdb358": {
+            "format": "png",
+            "id": "c06e643429cfed89673537bd96bdb358",
+            "name": "00000003.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000003.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d444fd1c0b91526ff08da9acd916be17": {
+            "format": "png",
+            "id": "d444fd1c0b91526ff08da9acd916be17",
+            "name": "00000081.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000081.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cd719ea9976cab057f5f6f3117c5eb80": {
+            "format": "png",
+            "id": "cd719ea9976cab057f5f6f3117c5eb80",
+            "name": "00000082.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000082.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2c74207fcdb482ee88b6eb1b43a19737": {
+            "format": "png",
+            "id": "2c74207fcdb482ee88b6eb1b43a19737",
+            "name": "00000083.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000083.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "468aeadb8028e36858430c295b38d111": {
+            "format": "png",
+            "id": "468aeadb8028e36858430c295b38d111",
+            "name": "00000084.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000084.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7bbf74815a6eeb78ac5d5413bf975bce": {
+            "format": "png",
+            "id": "7bbf74815a6eeb78ac5d5413bf975bce",
+            "name": "00000085.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000085.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3ccc9fea7e32bb559060ddb1b34f7d80": {
+            "format": "png",
+            "id": "3ccc9fea7e32bb559060ddb1b34f7d80",
+            "name": "00000086.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000086.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b22a6a9fba822f3cc8b77a2b0600faac": {
+            "format": "png",
+            "id": "b22a6a9fba822f3cc8b77a2b0600faac",
+            "name": "00000087.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000087.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "42fc9d5ad86a1f138d0b3bf96db16c63": {
+            "format": "png",
+            "id": "42fc9d5ad86a1f138d0b3bf96db16c63",
+            "name": "00000088.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000088.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "30db922234fe5e595d8f265f99ea10ac": {
+            "format": "png",
+            "id": "30db922234fe5e595d8f265f99ea10ac",
+            "name": "00000090.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000090.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1966d2dddc354b682c3f00be5a707766": {
+            "format": "png",
+            "id": "1966d2dddc354b682c3f00be5a707766",
+            "name": "00000089.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000089.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9d4b2eab11c65bd14e7efd4dc8ade748": {
+            "format": "png",
+            "id": "9d4b2eab11c65bd14e7efd4dc8ade748",
+            "name": "00000091.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000091.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4bec2c27b451c56937796a46a9f3f710": {
+            "format": "png",
+            "id": "4bec2c27b451c56937796a46a9f3f710",
+            "name": "00000092.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000092.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4735169bb3f0fad11c91a2a5b61ff897": {
+            "format": "png",
+            "id": "4735169bb3f0fad11c91a2a5b61ff897",
+            "name": "00000093.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000093.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5c9cdedbaa42e8f29bcfdb4c29f324ba": {
+            "format": "png",
+            "id": "5c9cdedbaa42e8f29bcfdb4c29f324ba",
+            "name": "00000094.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000094.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "331254290fbeeb963df969173f1400ed": {
+            "format": "png",
+            "id": "331254290fbeeb963df969173f1400ed",
+            "name": "00000095.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000095.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b0f9c1ecfa80cbccc82cf0a4c3376c6e": {
+            "format": "png",
+            "id": "b0f9c1ecfa80cbccc82cf0a4c3376c6e",
+            "name": "00000096.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000096.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8207beb64101316e3558c7ecf3b9b210": {
+            "format": "png",
+            "id": "8207beb64101316e3558c7ecf3b9b210",
+            "name": "00000097.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000097.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "19b272e4a0d69c853c2f0626142bd886": {
+            "format": "png",
+            "id": "19b272e4a0d69c853c2f0626142bd886",
+            "name": "00000098.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000098.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "727d3fae3df2aa1b4291fed83c59aca0": {
+            "format": "png",
+            "id": "727d3fae3df2aa1b4291fed83c59aca0",
+            "name": "00000099.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000099.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "08203faf6e35ebdbeb64ae38d4790024": {
+            "format": "png",
+            "id": "08203faf6e35ebdbeb64ae38d4790024",
+            "name": "00000100.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000100.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7a486463653bcf0db25d680659191577": {
+            "format": "png",
+            "id": "7a486463653bcf0db25d680659191577",
+            "name": "00000101.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000101.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aa8a4da4961e7cf48601ae22e54f565f": {
+            "format": "png",
+            "id": "aa8a4da4961e7cf48601ae22e54f565f",
+            "name": "00000102.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000102.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eea9c189bd89df3acc34d4fe5572f8c4": {
+            "format": "png",
+            "id": "eea9c189bd89df3acc34d4fe5572f8c4",
+            "name": "00000103.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000103.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ba8cb17890c61491c1c960a43cf18c10": {
+            "format": "png",
+            "id": "ba8cb17890c61491c1c960a43cf18c10",
+            "name": "00000104.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000104.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "09f25fa625fa41894151c9b86ff14508": {
+            "format": "png",
+            "id": "09f25fa625fa41894151c9b86ff14508",
+            "name": "00000105.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000105.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6cbac340034f760e48aca2326a6f9819": {
+            "format": "png",
+            "id": "6cbac340034f760e48aca2326a6f9819",
+            "name": "00000106.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000106.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "08d15069269b017ecaac82d8ba04c3a1": {
+            "format": "png",
+            "id": "08d15069269b017ecaac82d8ba04c3a1",
+            "name": "00000107.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000107.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "46925705b961c7efcdcba981e1447661": {
+            "format": "png",
+            "id": "46925705b961c7efcdcba981e1447661",
+            "name": "00000108.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000108.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "708976a56878c35800efa22e76e41e71": {
+            "format": "png",
+            "id": "708976a56878c35800efa22e76e41e71",
+            "name": "00000109.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000109.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d7d98abdde9458d3354bfee84fe241f1": {
+            "format": "png",
+            "id": "d7d98abdde9458d3354bfee84fe241f1",
+            "name": "00000110.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000110.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "68ce169a6fe6ac1e4ebba321a7e61d00": {
+            "format": "png",
+            "id": "68ce169a6fe6ac1e4ebba321a7e61d00",
+            "name": "00000111.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000111.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "08382190c3bc835868e26fcf2f88657e": {
+            "format": "png",
+            "id": "08382190c3bc835868e26fcf2f88657e",
+            "name": "00000112.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000112.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "81d9eee9ddc73f244a59598ae1518d21": {
+            "format": "png",
+            "id": "81d9eee9ddc73f244a59598ae1518d21",
+            "name": "00000113.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000113.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e8199b34a45cc873f5fe9a7fd6ffc05e": {
+            "format": "png",
+            "id": "e8199b34a45cc873f5fe9a7fd6ffc05e",
+            "name": "00000114.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000114.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f25df9ac282958af07f69ac8a6be9fb2": {
+            "format": "png",
+            "id": "f25df9ac282958af07f69ac8a6be9fb2",
+            "name": "00000115.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000115.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cfa70e717d67df4d635fbe93c1c80d66": {
+            "format": "png",
+            "id": "cfa70e717d67df4d635fbe93c1c80d66",
+            "name": "00000116.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000116.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4fefbb3dbcb7795f1471e3e8a2f2da33": {
+            "format": "png",
+            "id": "4fefbb3dbcb7795f1471e3e8a2f2da33",
+            "name": "00000117.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000117.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 1,
+            "type": 1
+        },
+        "ead27a3010e1716ac65472c4c377763c": {
+            "format": "png",
+            "id": "ead27a3010e1716ac65472c4c377763c",
+            "name": "00000118.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000118.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a3c8742eb8cf67a7cc6b4504f99942be": {
+            "format": "png",
+            "id": "a3c8742eb8cf67a7cc6b4504f99942be",
+            "name": "00000119.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000119.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "42db8e2665cbc8813f4527a33924b1d1": {
+            "format": "png",
+            "id": "42db8e2665cbc8813f4527a33924b1d1",
+            "name": "00000120.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000120.png",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3e21c50810bae8c9289b688ecb1498d1": {
+            "format": "jpg",
+            "id": "3e21c50810bae8c9289b688ecb1498d1",
+            "name": "00000301.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000301.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "77b2921409bc5aec195c40d7b71cf130": {
+            "format": "jpg",
+            "id": "77b2921409bc5aec195c40d7b71cf130",
+            "name": "00000302.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000302.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aae55bcdc88c1b55c7e2b3103133f1cd": {
+            "format": "jpg",
+            "id": "aae55bcdc88c1b55c7e2b3103133f1cd",
+            "name": "00000303.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000303.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3f0d111e1b052ae4cd70df13d6a670f8": {
+            "format": "jpg",
+            "id": "3f0d111e1b052ae4cd70df13d6a670f8",
+            "name": "00000304.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000304.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e14654f8b43d7fbc8318d983f12c75eb": {
+            "format": "png",
+            "id": "e14654f8b43d7fbc8318d983f12c75eb",
+            "name": "00000305.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000305.png",
+            "size": {
+                "width": 870,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6b79b35d327d8fe54e8578a716958dcb": {
+            "format": "png",
+            "id": "6b79b35d327d8fe54e8578a716958dcb",
+            "name": "00000306.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000306.png",
+            "size": {
+                "width": 792,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "78c052309e09b9ddc17c5479810eb232": {
+            "format": "png",
+            "id": "78c052309e09b9ddc17c5479810eb232",
+            "name": "00000307.png",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000307.png",
+            "size": {
+                "width": 1000,
+                "height": 1017
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a528a0e78eb999f7a3f83cd2a0a00ac2": {
+            "format": "jpg",
+            "id": "a528a0e78eb999f7a3f83cd2a0a00ac2",
+            "name": "00000700.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000700.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d1591a14f7c103e611a7b87f65ecbe9a": {
+            "format": "jpg",
+            "id": "d1591a14f7c103e611a7b87f65ecbe9a",
+            "name": "00000701.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000701.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "74f10d1b7343bec478f32f37fd91c3b7": {
+            "format": "jpg",
+            "id": "74f10d1b7343bec478f32f37fd91c3b7",
+            "name": "00000702.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000702.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "247702f1d4d13ec4a7e942fffdf30abe": {
+            "format": "jpg",
+            "id": "247702f1d4d13ec4a7e942fffdf30abe",
+            "name": "000007021.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007021.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7f363a7933e1e4bb49e7bdba603013ff": {
+            "format": "jpg",
+            "id": "7f363a7933e1e4bb49e7bdba603013ff",
+            "name": "00000703.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000703.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1d7fbc016b6f81ff4f6ac6cd86b6d3d3": {
+            "format": "jpg",
+            "id": "1d7fbc016b6f81ff4f6ac6cd86b6d3d3",
+            "name": "00000704.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000704.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3025da56f4a79419490f6da04fb336a7": {
+            "format": "jpg",
+            "id": "3025da56f4a79419490f6da04fb336a7",
+            "name": "00000705.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000705.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0e743cec0956f004e38155268d843840": {
+            "format": "jpg",
+            "id": "0e743cec0956f004e38155268d843840",
+            "name": "00000706.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000706.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c81c54ef83b6285647e8be7b249780cd": {
+            "format": "jpg",
+            "id": "c81c54ef83b6285647e8be7b249780cd",
+            "name": "00000707.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000707.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "88f9165073ab4bf70e61d93de52bf7d8": {
+            "format": "jpg",
+            "id": "88f9165073ab4bf70e61d93de52bf7d8",
+            "name": "00000708.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000708.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "20392f15ed9cbcb22be26cf5d9c7da42": {
+            "format": "jpg",
+            "id": "20392f15ed9cbcb22be26cf5d9c7da42",
+            "name": "00000709.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000709.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3aa7df59f61bab9329fb996bec16111b": {
+            "format": "jpg",
+            "id": "3aa7df59f61bab9329fb996bec16111b",
+            "name": "00000710.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000710.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2083bc2ef4d1ea58765627660eac88f2": {
+            "format": "jpg",
+            "id": "2083bc2ef4d1ea58765627660eac88f2",
+            "name": "00000711.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000711.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9527a0333a7d8eb4e17253d6022b932e": {
+            "format": "jpg",
+            "id": "9527a0333a7d8eb4e17253d6022b932e",
+            "name": "00000712.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000712.jpg",
+            "size": {
+                "width": 1417,
+                "height": 1061
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9669c7622926bcc86b8e816b804c645f": {
+            "format": "jpg",
+            "id": "9669c7622926bcc86b8e816b804c645f",
+            "name": "00000713.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000713.jpg",
+            "size": {
+                "width": 1097,
+                "height": 878
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8b510f8d1e3f55017076db34df27ae80": {
+            "format": "jpg",
+            "id": "8b510f8d1e3f55017076db34df27ae80",
+            "name": "00000714.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000714.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a9dd0662c14f5c97d27ab144018f2590": {
+            "format": "jpg",
+            "id": "a9dd0662c14f5c97d27ab144018f2590",
+            "name": "00000715.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000715.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1d3578c4b3188feed2f2db795dfffec5": {
+            "format": "jpg",
+            "id": "1d3578c4b3188feed2f2db795dfffec5",
+            "name": "00000716.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000716.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "facfd9cc6d99b7f04ca08e6918929071": {
+            "format": "jpg",
+            "id": "facfd9cc6d99b7f04ca08e6918929071",
+            "name": "00000717.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000717.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b8047311d16f13c148002c529d26d7d8": {
+            "format": "jpg",
+            "id": "b8047311d16f13c148002c529d26d7d8",
+            "name": "00000718.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000718.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0d1f9a7f89828612969d95582bae2e67": {
+            "format": "jpg",
+            "id": "0d1f9a7f89828612969d95582bae2e67",
+            "name": "00000720.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000720.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e152bb3fd6806c6815a6a69e4ab28e67": {
+            "format": "jpg",
+            "id": "e152bb3fd6806c6815a6a69e4ab28e67",
+            "name": "00000721.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000721.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1a44447312e07ea662527907b43f1869": {
+            "format": "jpg",
+            "id": "1a44447312e07ea662527907b43f1869",
+            "name": "00000722.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000722.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ab74ef49fad92f2a47a77419e6ecbeba": {
+            "format": "jpg",
+            "id": "ab74ef49fad92f2a47a77419e6ecbeba",
+            "name": "00000723.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000723.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8dd6365ccd818ff0fe170865be467854": {
+            "format": "jpg",
+            "id": "8dd6365ccd818ff0fe170865be467854",
+            "name": "00000724.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000724.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d8529e67b95da5cbc5be34c235e68587": {
+            "format": "jpg",
+            "id": "d8529e67b95da5cbc5be34c235e68587",
+            "name": "00000725.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000725.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6ce937cb762ea993b3398b910b80ffa0": {
+            "format": "jpg",
+            "id": "6ce937cb762ea993b3398b910b80ffa0",
+            "name": "00000726.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000726.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5bd3bd50f261e9d896f4476369454ccd": {
+            "format": "jpg",
+            "id": "5bd3bd50f261e9d896f4476369454ccd",
+            "name": "00000727.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000727.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "51a32754660dbafa9e82d75e675ec339": {
+            "format": "jpg",
+            "id": "51a32754660dbafa9e82d75e675ec339",
+            "name": "00000728.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000728.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d9ef851af26119ae7cb96caab4eb353d": {
+            "format": "jpg",
+            "id": "d9ef851af26119ae7cb96caab4eb353d",
+            "name": "00000730.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000730.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4b6e8a5e56140ac50a98c8ad9590f377": {
+            "format": "jpg",
+            "id": "4b6e8a5e56140ac50a98c8ad9590f377",
+            "name": "00000729.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000729.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fad4bdf40ec6f0bf2a242d13436eb701": {
+            "format": "jpg",
+            "id": "fad4bdf40ec6f0bf2a242d13436eb701",
+            "name": "00000731.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000731.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "68740f91a98abd0bd5ef7ef12531aa8c": {
+            "format": "jpg",
+            "id": "68740f91a98abd0bd5ef7ef12531aa8c",
+            "name": "00000732.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000732.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "547104526ff9fcf635a70ab86dfc6aec": {
+            "format": "jpg",
+            "id": "547104526ff9fcf635a70ab86dfc6aec",
+            "name": "00000733.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000733.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cee4375eaed6b6fa960ffacc9471ada2": {
+            "format": "jpg",
+            "id": "cee4375eaed6b6fa960ffacc9471ada2",
+            "name": "000007340.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007340.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d87f7bbe62f884e202e0bf85511d4f8d": {
+            "format": "jpg",
+            "id": "d87f7bbe62f884e202e0bf85511d4f8d",
+            "name": "000007341.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007341.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "09eab4d84ec4acdbde4759b30e015d32": {
+            "format": "jpg",
+            "id": "09eab4d84ec4acdbde4759b30e015d32",
+            "name": "000007342.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007342.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "53975a8b7fce07c9b6e94bd8bc43775f": {
+            "format": "jpg",
+            "id": "53975a8b7fce07c9b6e94bd8bc43775f",
+            "name": "000007343.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007343.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db0eeecd74a14eae78679473f0db7e24": {
+            "format": "jpg",
+            "id": "db0eeecd74a14eae78679473f0db7e24",
+            "name": "000007344.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007344.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "140ca8739e1664279e2ea837e86587e4": {
+            "format": "jpg",
+            "id": "140ca8739e1664279e2ea837e86587e4",
+            "name": "000007345.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007345.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a31fb4a0bd3bc4943f56703e3a13154b": {
+            "format": "jpg",
+            "id": "a31fb4a0bd3bc4943f56703e3a13154b",
+            "name": "000007346.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007346.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "34133fd006f1c222b101e2855cfd583c": {
+            "format": "jpg",
+            "id": "34133fd006f1c222b101e2855cfd583c",
+            "name": "000007347.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007347.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b08961ae5dcfaeebc85bda5e594433f3": {
+            "format": "jpg",
+            "id": "b08961ae5dcfaeebc85bda5e594433f3",
+            "name": "000007348_1.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007348_1.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "afe3ea753033177f48c4780dc86abeb6": {
+            "format": "jpg",
+            "id": "afe3ea753033177f48c4780dc86abeb6",
+            "name": "000007348_2.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007348_2.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "591b0a794dbc8a91cb51569a3f29d0c5": {
+            "format": "jpg",
+            "id": "591b0a794dbc8a91cb51569a3f29d0c5",
+            "name": "000007348_3.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007348_3.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4c9fa3293e4f8dc30469fb66e0bc856f": {
+            "format": "jpg",
+            "id": "4c9fa3293e4f8dc30469fb66e0bc856f",
+            "name": "000007348_4.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007348_4.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "21a11b138fc9efdcf774a17545eee00d": {
+            "format": "jpg",
+            "id": "21a11b138fc9efdcf774a17545eee00d",
+            "name": "000007348_5.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007348_5.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "38e924cf32cef21d49b9a9d075605364": {
+            "format": "jpg",
+            "id": "38e924cf32cef21d49b9a9d075605364",
+            "name": "000007348_6.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007348_6.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9cbbaa543fb6b8d7773bb93b88e15e2d": {
+            "format": "jpg",
+            "id": "9cbbaa543fb6b8d7773bb93b88e15e2d",
+            "name": "000007349.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007349.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9262c75a9c17c82983e6cbe5059195c2": {
+            "format": "jpg",
+            "id": "9262c75a9c17c82983e6cbe5059195c2",
+            "name": "00000735.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000735.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cf606a29fd832b8bd08280b93643e9ca": {
+            "format": "jpg",
+            "id": "cf606a29fd832b8bd08280b93643e9ca",
+            "name": "000007350.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007350.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c74f7e215b109c126b9135ec1d2b2ab8": {
+            "format": "jpg",
+            "id": "c74f7e215b109c126b9135ec1d2b2ab8",
+            "name": "000007351.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007351.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3919270abf14f26b917bfc0d3ec6dc6f": {
+            "format": "jpg",
+            "id": "3919270abf14f26b917bfc0d3ec6dc6f",
+            "name": "000007352_1.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007352_1.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b3864132a0f09c7e6935c00001447760": {
+            "format": "jpg",
+            "id": "b3864132a0f09c7e6935c00001447760",
+            "name": "000007352_2.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007352_2.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a4f534e45e1fdeb540f581e587ff698d": {
+            "format": "jpg",
+            "id": "a4f534e45e1fdeb540f581e587ff698d",
+            "name": "000007353.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007353.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "faf4a49e80825ca24901f9efafdd59b5": {
+            "format": "jpg",
+            "id": "faf4a49e80825ca24901f9efafdd59b5",
+            "name": "000007354.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007354.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9fcd600f3558e9bec34e671eac2527f7": {
+            "format": "jpg",
+            "id": "9fcd600f3558e9bec34e671eac2527f7",
+            "name": "000007355_1.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007355_1.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "136ad272ec3799e91a626d091bca5143": {
+            "format": "jpg",
+            "id": "136ad272ec3799e91a626d091bca5143",
+            "name": "000007355_2.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007355_2.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1440c385080d0bbb5a6fad75ed613bd9": {
+            "format": "jpg",
+            "id": "1440c385080d0bbb5a6fad75ed613bd9",
+            "name": "000007356.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007356.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6da04c1744e35e0461c377c55cf0096b": {
+            "format": "jpg",
+            "id": "6da04c1744e35e0461c377c55cf0096b",
+            "name": "000007357.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007357.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "470cde4dc270b44db6a5eaed760c9ec6": {
+            "format": "jpg",
+            "id": "470cde4dc270b44db6a5eaed760c9ec6",
+            "name": "000007358.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007358.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aac1f3714b417bbef805e64530342ca5": {
+            "format": "jpg",
+            "id": "aac1f3714b417bbef805e64530342ca5",
+            "name": "000007359.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007359.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "11490b7dd1f94509c84a636e5b538c4e": {
+            "format": "jpg",
+            "id": "11490b7dd1f94509c84a636e5b538c4e",
+            "name": "00000736.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000736.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "efef6c7861e389ecf4059081fa4a93d9": {
+            "format": "jpg",
+            "id": "efef6c7861e389ecf4059081fa4a93d9",
+            "name": "000007360.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007360.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0dc376b7a23fa0c4f284f11a253593e5": {
+            "format": "jpg",
+            "id": "0dc376b7a23fa0c4f284f11a253593e5",
+            "name": "000007361.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007361.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "96e3e50e83e72dc1f5bc6fe9f8da7470": {
+            "format": "jpg",
+            "id": "96e3e50e83e72dc1f5bc6fe9f8da7470",
+            "name": "000007362.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007362.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b039b080f5b38bfdb62eb00ec0f9880b": {
+            "format": "jpg",
+            "id": "b039b080f5b38bfdb62eb00ec0f9880b",
+            "name": "000007363.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007363.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dc904b61aac9e84e1a872f5ac3e7ba69": {
+            "format": "jpg",
+            "id": "dc904b61aac9e84e1a872f5ac3e7ba69",
+            "name": "000007364.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007364.jpg",
+            "size": {
+                "width": 965,
+                "height": 965
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a1d7591990c9d1dad9f1ff7a4cbc72c1": {
+            "format": "jpg",
+            "id": "a1d7591990c9d1dad9f1ff7a4cbc72c1",
+            "name": "000007365.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007365.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a757485647437c833f6723559762e162": {
+            "format": "jpg",
+            "id": "a757485647437c833f6723559762e162",
+            "name": "000007366_1.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007366_1.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f20a1f0c0822a93e40ce98fe7110a756": {
+            "format": "jpg",
+            "id": "f20a1f0c0822a93e40ce98fe7110a756",
+            "name": "000007366_2.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007366_2.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "576023e3acb41bd3088e5d4b0d0c5a84": {
+            "format": "jpg",
+            "id": "576023e3acb41bd3088e5d4b0d0c5a84",
+            "name": "000007367_1.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007367_1.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d6ee9809f9e94f3b6386317eca36e010": {
+            "format": "jpg",
+            "id": "d6ee9809f9e94f3b6386317eca36e010",
+            "name": "000007367_2.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007367_2.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "32b6d82439b7552a1b5726f261a68be8": {
+            "format": "jpg",
+            "id": "32b6d82439b7552a1b5726f261a68be8",
+            "name": "000007368_1.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007368_1.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "39842ed7bce92e79e5eda50c36ea75ca": {
+            "format": "jpg",
+            "id": "39842ed7bce92e79e5eda50c36ea75ca",
+            "name": "000007368_2.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007368_2.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8a77e2d20f9cbc85291ca59fc28e1fbc": {
+            "format": "jpg",
+            "id": "8a77e2d20f9cbc85291ca59fc28e1fbc",
+            "name": "000007368_3.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007368_3.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "566cb1375b506480478351029c3c6fa6": {
+            "format": "jpg",
+            "id": "566cb1375b506480478351029c3c6fa6",
+            "name": "000007369.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007369.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dcaf8259eae2dd7dfcf367614a60405c": {
+            "format": "jpg",
+            "id": "dcaf8259eae2dd7dfcf367614a60405c",
+            "name": "00000737.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000737.jpg",
+            "size": {
+                "width": 1045,
+                "height": 837
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4188a3032db796a7aafbd45e938ac511": {
+            "format": "jpg",
+            "id": "4188a3032db796a7aafbd45e938ac511",
+            "name": "000007370.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007370.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5b1d1f43d79081027ec1c6712eaac6dd": {
+            "format": "jpg",
+            "id": "5b1d1f43d79081027ec1c6712eaac6dd",
+            "name": "000007371.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007371.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c4dd8975f4f7e57c18f51d5cae44f683": {
+            "format": "jpg",
+            "id": "c4dd8975f4f7e57c18f51d5cae44f683",
+            "name": "000007372.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007372.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4c03e001d382e35aab1624dc4a644d01": {
+            "format": "jpg",
+            "id": "4c03e001d382e35aab1624dc4a644d01",
+            "name": "000007373.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007373.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d139a1dbf157156f4b93a1cb851c6685": {
+            "format": "jpg",
+            "id": "d139a1dbf157156f4b93a1cb851c6685",
+            "name": "000007374_1.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007374_1.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "261d0875ae0808061e8fef6d50a89058": {
+            "format": "jpg",
+            "id": "261d0875ae0808061e8fef6d50a89058",
+            "name": "000007374_2.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007374_2.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6fd3cfc9a1c72dbb92ed5ce4de9bf0b9": {
+            "format": "jpg",
+            "id": "6fd3cfc9a1c72dbb92ed5ce4de9bf0b9",
+            "name": "000007375.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007375.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cf6ed0f48bd9a1dd783f5819addccc26": {
+            "format": "jpg",
+            "id": "cf6ed0f48bd9a1dd783f5819addccc26",
+            "name": "000007376_1.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007376_1.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b67543d3e62cf19b078f178f2abb19ba": {
+            "format": "jpg",
+            "id": "b67543d3e62cf19b078f178f2abb19ba",
+            "name": "000007376_2.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007376_2.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f5553a8c6b12acb24ee348461543a704": {
+            "format": "jpg",
+            "id": "f5553a8c6b12acb24ee348461543a704",
+            "name": "000007377.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007377.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1a38c104e93db7502f6462143624ee04": {
+            "format": "jpg",
+            "id": "1a38c104e93db7502f6462143624ee04",
+            "name": "000007378.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007378.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8d7cbd2cb95e2d89d284d927f983e207": {
+            "format": "jpg",
+            "id": "8d7cbd2cb95e2d89d284d927f983e207",
+            "name": "000007379_1.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007379_1.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2dba590279eefefc9e8625847c40745d": {
+            "format": "jpg",
+            "id": "2dba590279eefefc9e8625847c40745d",
+            "name": "000007379_3.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007379_3.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fb8bb8c72469232a9218a29a73ff57a8": {
+            "format": "jpg",
+            "id": "fb8bb8c72469232a9218a29a73ff57a8",
+            "name": "000007379_2.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007379_2.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dd5e6283f6f0d018e850162465f94aa7": {
+            "format": "jpg",
+            "id": "dd5e6283f6f0d018e850162465f94aa7",
+            "name": "00000738.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000738.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fa50b455fb126a0a375d0014a2e21f47": {
+            "format": "jpg",
+            "id": "fa50b455fb126a0a375d0014a2e21f47",
+            "name": "000007380.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007380.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "785e8975160c3aebac59a50baaa1d7c9": {
+            "format": "jpg",
+            "id": "785e8975160c3aebac59a50baaa1d7c9",
+            "name": "000007381.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007381.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "da2b62a755369e6eb1051f450a51ce7b": {
+            "format": "jpg",
+            "id": "da2b62a755369e6eb1051f450a51ce7b",
+            "name": "000007382.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007382.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6e23bef9aa7fd4fc4dc7cab761e6c27a": {
+            "format": "jpg",
+            "id": "6e23bef9aa7fd4fc4dc7cab761e6c27a",
+            "name": "000007383.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007383.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4e6000a4579c31e15816878740774d5e": {
+            "format": "jpg",
+            "id": "4e6000a4579c31e15816878740774d5e",
+            "name": "000007384.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007384.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7a8bca18836df5bf7397b020566165b7": {
+            "format": "jpg",
+            "id": "7a8bca18836df5bf7397b020566165b7",
+            "name": "000007385.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007385.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7bd32d0ad4a5ca8bab20de2754c24c20": {
+            "format": "jpg",
+            "id": "7bd32d0ad4a5ca8bab20de2754c24c20",
+            "name": "000007386_1.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007386_1.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5ea30b9313be170d566a5b5d1b712eb3": {
+            "format": "jpg",
+            "id": "5ea30b9313be170d566a5b5d1b712eb3",
+            "name": "000007386_2.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007386_2.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "65eeb0093afa291d6743ffce9e9f3363": {
+            "format": "jpg",
+            "id": "65eeb0093afa291d6743ffce9e9f3363",
+            "name": "000007387.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007387.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "01f8e867ac113b88c9537e2da881ab9a": {
+            "format": "jpg",
+            "id": "01f8e867ac113b88c9537e2da881ab9a",
+            "name": "000007388.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007388.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "81a04690359097f4b3ab90f8b3d9f4e9": {
+            "format": "jpg",
+            "id": "81a04690359097f4b3ab90f8b3d9f4e9",
+            "name": "000007389.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007389.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d127d34a694593c4547f38ab0aaaf8e0": {
+            "format": "jpg",
+            "id": "d127d34a694593c4547f38ab0aaaf8e0",
+            "name": "00000739.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000739.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4c95c9616af45220adea1a21b8fa8c54": {
+            "format": "jpg",
+            "id": "4c95c9616af45220adea1a21b8fa8c54",
+            "name": "000007390_1.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007390_1.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5bd8ef644588678302f5b38e0ab3eeb3": {
+            "format": "jpg",
+            "id": "5bd8ef644588678302f5b38e0ab3eeb3",
+            "name": "000007391.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007391.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a250c03a5d3b6864ffdfe840ab4220c9": {
+            "format": "jpg",
+            "id": "a250c03a5d3b6864ffdfe840ab4220c9",
+            "name": "000007392_1.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007392_1.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "df37096cb13c919dac90db111687eff5": {
+            "format": "jpg",
+            "id": "df37096cb13c919dac90db111687eff5",
+            "name": "000007392_2.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007392_2.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e49aedd6236ee263ce7b4ed60d9db55b": {
+            "format": "jpg",
+            "id": "e49aedd6236ee263ce7b4ed60d9db55b",
+            "name": "000007393.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007393.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3eeb5f1f2812cfebfcfc0b1fbe287b83": {
+            "format": "jpg",
+            "id": "3eeb5f1f2812cfebfcfc0b1fbe287b83",
+            "name": "000007394.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007394.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "46949c3144c6a1221c668468f4d62dff": {
+            "format": "jpg",
+            "id": "46949c3144c6a1221c668468f4d62dff",
+            "name": "000007395.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007395.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6e53f2347b271dcb5e4e074529081a32": {
+            "format": "jpg",
+            "id": "6e53f2347b271dcb5e4e074529081a32",
+            "name": "000007396_1.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007396_1.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "47957402df9c1bff3487f35b9c51db14": {
+            "format": "jpg",
+            "id": "47957402df9c1bff3487f35b9c51db14",
+            "name": "000007396_2.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007396_2.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "62741eaf34635b059796bdc9480ed12a": {
+            "format": "jpg",
+            "id": "62741eaf34635b059796bdc9480ed12a",
+            "name": "000007397_1.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007397_1.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e23a9db32117148835ce9e202f1caf2a": {
+            "format": "jpg",
+            "id": "e23a9db32117148835ce9e202f1caf2a",
+            "name": "000007397_2.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007397_2.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8b797975efd66909e550a02b4b13dfb3": {
+            "format": "jpg",
+            "id": "8b797975efd66909e550a02b4b13dfb3",
+            "name": "000007398_1.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007398_1.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c175e326eb6dd79c51ca355a21a05a99": {
+            "format": "jpg",
+            "id": "c175e326eb6dd79c51ca355a21a05a99",
+            "name": "000007398_2.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007398_2.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "77b2fc44c1b99713d9c6f142389c805e": {
+            "format": "jpg",
+            "id": "77b2fc44c1b99713d9c6f142389c805e",
+            "name": "000007398_3.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007398_3.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4ff31d9080564d052f06277ae25acd61": {
+            "format": "jpg",
+            "id": "4ff31d9080564d052f06277ae25acd61",
+            "name": "000007399_1.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007399_1.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "160c4b0f5bda1f3654a6a1fa85402b1b": {
+            "format": "jpg",
+            "id": "160c4b0f5bda1f3654a6a1fa85402b1b",
+            "name": "000007400.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007400.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9d5474b7143d7975f6a7f97deb680f29": {
+            "format": "jpg",
+            "id": "9d5474b7143d7975f6a7f97deb680f29",
+            "name": "000007401.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007401.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c0530c3f87fc2580384ab26a93de8f0c": {
+            "format": "jpg",
+            "id": "c0530c3f87fc2580384ab26a93de8f0c",
+            "name": "000007402.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007402.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ea0f0d863727dc9b1edf07b07b2d7300": {
+            "format": "jpg",
+            "id": "ea0f0d863727dc9b1edf07b07b2d7300",
+            "name": "000007403.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007403.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9ff14bd6e0b31b92ad410889f228fd00": {
+            "format": "jpg",
+            "id": "9ff14bd6e0b31b92ad410889f228fd00",
+            "name": "%CE%9100000903.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/%CE%9100000903.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aca71fe0737d449aadc71ed1c2e3d6f0": {
+            "format": "jpg",
+            "id": "aca71fe0737d449aadc71ed1c2e3d6f0",
+            "name": "%CE%9100000904.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/%CE%9100000904.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2036613e0104ad7d59ce4f8a4ee67daf": {
+            "format": "jpg",
+            "id": "2036613e0104ad7d59ce4f8a4ee67daf",
+            "name": "%CE%91000009043.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/%CE%91000009043.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "76231c9ff1e8d160f2cf3b4f430b153c": {
+            "format": "jpg",
+            "id": "76231c9ff1e8d160f2cf3b4f430b153c",
+            "name": "%CE%9100000905.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/%CE%9100000905.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d6f735ffa8236816cd87433cde7740a5": {
+            "format": "jpg",
+            "id": "d6f735ffa8236816cd87433cde7740a5",
+            "name": "%CE%9100000906.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/%CE%9100000906.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ff17c87107e40e7d41f6829fe1694029": {
+            "format": "jpg",
+            "id": "ff17c87107e40e7d41f6829fe1694029",
+            "name": "%CE%9100000907.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/%CE%9100000907.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3d336de9ae9f9650338b2a5f1bbd52a7": {
+            "format": "jpg",
+            "id": "3d336de9ae9f9650338b2a5f1bbd52a7",
+            "name": "%CE%9100000908.jpg",
+            "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/%CE%9100000908.jpg",
+            "size": {
+                "width": 880,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}

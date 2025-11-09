@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "4fefbb3dbcb7795f1471e3e8a2f2da33",
+        "name": "00000117.png",
+        "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000117.png",
+        "size": {
+            "width": 880,
+            "height": 720
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "tWeXpriaL",
+            "type": "RECTANGLE",
+            "tags": [
+                "Impact"
+            ],
+            "boundingBox": {
+                "height": 13.165701729910714,
+                "width": 15.644457008406432,
+                "left": 372.6748475191886,
+                "top": 346.42287597656247
+            },
+            "points": [
+                {
+                    "x": 372.6748475191886,
+                    "y": 346.42287597656247
+                },
+                {
+                    "x": 388.319304527595,
+                    "y": 346.42287597656247
+                },
+                {
+                    "x": 388.319304527595,
+                    "y": 359.5885777064732
+                },
+                {
+                    "x": 372.6748475191886,
+                    "y": 359.5885777064732
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

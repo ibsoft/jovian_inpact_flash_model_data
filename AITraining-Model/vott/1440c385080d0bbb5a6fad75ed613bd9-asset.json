@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "1440c385080d0bbb5a6fad75ed613bd9",
+        "name": "000007356.jpg",
+        "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/000007356.jpg",
+        "size": {
+            "width": 880,
+            "height": 720
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "f1N-f1gKg",
+            "type": "RECTANGLE",
+            "tags": [
+                "Shadow"
+            ],
+            "boundingBox": {
+                "height": 26.331434849330353,
+                "width": 31.288851197002923,
+                "left": 259.046815035636,
+                "top": 413.07429199218745
+            },
+            "points": [
+                {
+                    "x": 259.046815035636,
+                    "y": 413.07429199218745
+                },
+                {
+                    "x": 290.33566623263886,
+                    "y": 413.07429199218745
+                },
+                {
+                    "x": 290.33566623263886,
+                    "y": 439.40572684151783
+                },
+                {
+                    "x": 259.046815035636,
+                    "y": 439.40572684151783
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

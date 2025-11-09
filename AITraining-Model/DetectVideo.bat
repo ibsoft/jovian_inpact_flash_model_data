@@ -1,0 +1,1 @@
+yolo detect predict model=best.pt source=".\\d\\Jupiter Collision.mp4"

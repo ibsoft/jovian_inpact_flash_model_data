@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "b46ac4ed9aa696ab7cab55ccb153513c",
+        "name": "frame-0201.png",
+        "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/frame-0201.png",
+        "size": {
+            "width": 640,
+            "height": 480
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "kvv_c_GAt",
+            "type": "RECTANGLE",
+            "tags": [
+                "Impact"
+            ],
+            "boundingBox": {
+                "height": 21.39429408482143,
+                "width": 18.08995248929336,
+                "left": 292.84796573875803,
+                "top": 288
+            },
+            "points": [
+                {
+                    "x": 292.84796573875803,
+                    "y": 288
+                },
+                {
+                    "x": 310.9379182280514,
+                    "y": 288
+                },
+                {
+                    "x": 310.9379182280514,
+                    "y": 309.3942940848214
+                },
+                {
+                    "x": 292.84796573875803,
+                    "y": 309.3942940848214
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

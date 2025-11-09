@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "aae55bcdc88c1b55c7e2b3103133f1cd",
+        "name": "00000303.jpg",
+        "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/00000303.jpg",
+        "size": {
+            "width": 880,
+            "height": 720
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "GJUIpyWX1",
+            "type": "RECTANGLE",
+            "tags": [
+                "Satellite"
+            ],
+            "boundingBox": {
+                "height": 19.748583984375,
+                "width": 18.93803682383041,
+                "left": 614.7520530656067,
+                "top": 264.96000627790175
+            },
+            "points": [
+                {
+                    "x": 614.7520530656067,
+                    "y": 264.96000627790175
+                },
+                {
+                    "x": 633.6900898894371,
+                    "y": 264.96000627790175
+                },
+                {
+                    "x": 633.6900898894371,
+                    "y": 284.70859026227674
+                },
+                {
+                    "x": 614.7520530656067,
+                    "y": 284.70859026227674
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "b3e0ea380be07b2188f3ba9708951419",
+        "name": "frame-0205.png",
+        "path": "file:C:/Users/ioannisb/Documents/Development/AITrainingImages/OUT/frame-0205.png",
+        "size": {
+            "width": 640,
+            "height": 480
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "LIbkZpCst",
+            "type": "RECTANGLE",
+            "tags": [
+                "Impact"
+            ],
+            "boundingBox": {
+                "height": 21.39429408482143,
+                "width": 19.734467010171304,
+                "left": 295.0406935894004,
+                "top": 288
+            },
+            "points": [
+                {
+                    "x": 295.0406935894004,
+                    "y": 288
+                },
+                {
+                    "x": 314.77516059957173,
+                    "y": 288
+                },
+                {
+                    "x": 314.77516059957173,
+                    "y": 309.3942940848214
+                },
+                {
+                    "x": 295.0406935894004,
+                    "y": 309.3942940848214
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
